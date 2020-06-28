@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
 import Parent from './Parent';
-//import { useState } from 'react';
+import { useState } from 'react';
 import ValueContext from './ValueContext';
 
 function App() {
-  //let [number, setNumber] =useState(45);
-  let value=81;
+  let value =useState(48);
+  
   return (
-    //<ValueContext.Provider value={value}>
+    <ValueContext.Provider value={value}>
     <div>
 
       hello world 
       <Parent ></Parent>    
     </div> 
-    //</ValueContext.Provider>
+    </ValueContext.Provider>
   );
 }
 
