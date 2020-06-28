@@ -1,6 +1,6 @@
 import React from 'react';
 import Child from './Child';
-
+import Child2 from './Child2';
 function Parent(props) {
 
    
@@ -9,6 +9,7 @@ function Parent(props) {
 
       parent
       <Child />
+      <Child2></Child2>
     </div>
   );
 }

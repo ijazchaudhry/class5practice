@@ -8,7 +8,7 @@ function Child() {
   let updateValue=value[1];
   return (
     <div>
-      child number {value [0]}
+      child number {value[0]}
       <button onClick={()=>{updateValue(++value[0])}}>Update Value</button>
     </div>
   );
